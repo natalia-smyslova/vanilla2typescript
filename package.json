@@ -1,0 +1,19 @@
+{
+  "name": "ts-course-proj1-starter",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "deploy": "npm run build && gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "typescript": "^5.7.2"
+  }
+}
